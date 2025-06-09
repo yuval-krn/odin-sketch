@@ -1,0 +1,23 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    color: white;
+    height: 100%;
+}
+body {
+    background-color: rgb(18,24,38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell:hover {
+    background-color: blanchedalmond;
+}
